@@ -1,0 +1,8 @@
+# Public build output
+/dist/
+
+# Internal-only artifacts (never publish)
+/internal/
+
+
+*.pyc
