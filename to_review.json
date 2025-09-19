@@ -1,0 +1,232 @@
+[
+  {
+    "name": "bad guy",
+    "artist": "Billie Eilish",
+    "category": "Pop"
+  },
+  {
+    "name": "Levitating",
+    "artist": "Dua Lipa",
+    "category": "Pop"
+  },
+  {
+    "name": "Don’t Go Breaking My Heart",
+    "artist": "Elton John",
+    "category": "Pop"
+  },
+  {
+    "name": "Hallelujah I Love Her SO",
+    "artist": "Ray Charles",
+    "category": "Blues"
+  },
+  {
+    "name": "Shake It Off",
+    "artist": "Taylor Swift",
+    "category": "Pop"
+  },
+  {
+    "name": "Flowers",
+    "artist": "Miley Cyrus",
+    "category": "Pop"
+  },
+  {
+    "name": "Party in the U.S.A.",
+    "artist": "Miley Cyrus",
+    "category": "Pop"
+  },
+  {
+    "name": "Love You Like a Love Song",
+    "artist": "Selena Gomez",
+    "category": "Pop"
+  },
+  {
+    "name": "If I Ain’t Got You",
+    "artist": "Alicia Keys",
+    "category": "Pop"
+  },
+  {
+    "name": "No One",
+    "artist": "Alicia Keys",
+    "category": "Pop"
+  },
+  {
+    "name": "Call Me Maybe",
+    "artist": "Carly Rae Jepsen",
+    "category": "Pop"
+  },
+  {
+    "name": "Rather Be",
+    "artist": "Clean Bandit ft. Jess Glynne",
+    "category": "Pop"
+  },
+  {
+    "name": "Sorry",
+    "artist": "Justin Bieber",
+    "category": "Pop"
+  },
+  {
+    "name": "Umbrella",
+    "artist": "Rihanna",
+    "category": "Pop"
+  },
+  {
+    "name": "Diamonds",
+    "artist": "Rihanna",
+    "category": "Pop"
+  },
+  {
+    "name": "Last Friday Night (TGIF)",
+    "artist": "Katy Perry",
+    "category": "Pop"
+  },
+  {
+    "name": "Firework",
+    "artist": "Katy Perry",
+    "category": "Pop"
+  },
+  {
+    "name": "Roar",
+    "artist": "Katy Perry",
+    "category": "Pop"
+  },
+  {
+    "name": "Bad Romance",
+    "artist": "Lady Gaga",
+    "category": "Pop"
+  },
+  {
+    "name": "Don’t Stop Believin’",
+    "artist": "Journey",
+    "category": "Rock"
+  },
+  {
+    "name": "Livin’ on a Prayer",
+    "artist": "Bon Jovi",
+    "category": "Rock"
+  },
+  {
+    "name": "Sweet Caroline",
+    "artist": "Neil Diamond",
+    "category": "Pop"
+  },
+  {
+    "name": "Girls Just Want to Have Fun",
+    "artist": "Cyndi Lauper",
+    "category": "Pop"
+  },
+  {
+    "name": "Summer of ’69",
+    "artist": "Bryan Adams",
+    "category": "Rock"
+  },
+  {
+    "name": "Highway to Hell",
+    "artist": "AC/DC",
+    "category": "Rock"
+  },
+  {
+    "name": "Back in Black",
+    "artist": "AC/DC",
+    "category": "Rock"
+  },
+    {
+    "name": "La Macarena",
+    "artist": "Los del Río",
+    "category": "Latin"
+  },
+  {
+    "name": "Aserejé",
+    "artist": "Las Ketchup",
+    "category": "Latin"
+  },
+  {
+    "name": "La mordidita",
+    "artist": "Ricky Martin",
+    "category": "Latin"
+  },
+  {
+    "name": "Livin’ la Vida Loca",
+    "artist": "Ricky Martin",
+    "category": "Latin"
+  },
+  {
+    "name": "Oye Como Va",
+    "artist": "Santana",
+    "category": "Latin"
+  },
+  {
+    "name": "Hips Don’t Lie",
+    "artist": "Shakira ft. Wyclef Jean",
+    "category": "Latin"
+  },
+  {
+    "name": "Like a Prayer",
+    "artist": "Madonna",
+    "category": "Pop"
+  },
+  {
+    "name": "Material Girl",
+    "artist": "Madonna",
+    "category": "Pop"
+  },
+  {
+    "name": "7 Years",
+    "artist": "Lukas Graham",
+    "category": "Pop"
+  },
+    {
+    "name": "Obsesión",
+    "artist": "Aventura",
+    "category": "Latin"
+  },
+  {
+    "name": "Darte un Beso",
+    "artist": "Prince Royce",
+    "category": "Latin"
+  },
+  {
+    "name": "Propuesta Indecente",
+    "artist": "Romeo Santos",
+    "category": "Latin"
+  },
+  {
+    "name": "Oops!... I Did It Again",
+    "artist": "Britney Spears",
+    "category": "Pop"
+  },
+  {
+    "name": "Boulevard of Broken Dreams",
+    "artist": "Green Day",
+    "category": "Rock"
+  },
+  {
+    "name": "Basket Case",
+    "artist": "Green Day",
+    "category": "Rock"
+  },
+  {
+    "name": "American Idiot",
+    "artist": "Green Day",
+    "category": "Rock"
+  },
+  {
+    "name": "Sweet Child O’ Mine",
+    "artist": "Guns N’ Roses",
+    "category": "Rock"
+  },
+  {
+    "name": "Smells Like Teen Spirit",
+    "artist": "Nirvana",
+    "category": "Rock"
+  },
+  {
+    "name": "Take On Me",
+    "artist": "A-ha",
+    "category": "Pop"
+  },
+  {
+    "name": "La Vida es un Carnaval",
+    "artist": "Celia Cruz",
+    "category": "Latin"
+  }
+]

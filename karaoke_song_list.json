@@ -1,0 +1,726 @@
+[
+  {
+    "name": "Come Together",
+    "artist": "The Beatles",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Hey Jude",
+    "artist": "The Beatles",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "I Saw Her Standing There",
+    "artist": "The Beatles",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Imagine",
+    "artist": "John Lennon",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Let It Be",
+    "artist": "The Beatles",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Love Me Do",
+    "artist": "The Beatles",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "She Loves You",
+    "artist": "The Beatles",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Twist and Shout",
+    "artist": "The Beatles",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Yesterday",
+    "artist": "The Beatles",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Have You Ever Seen the Rain",
+    "artist": "Creedence Clearwater Revival",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Proud Mary",
+    "artist": "Creedence Clearwater Revival",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Blue Suede Shoes",
+    "artist": "Elvis Presley",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Can’t Help Falling in Love",
+    "artist": "Elvis Presley",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Hound Dog",
+    "artist": "Elvis Presley",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Jailhouse Rock",
+    "artist": "Elvis Presley",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Dreams",
+    "artist": "Fleetwood Mac",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Crazy Little Thing Called Love",
+    "artist": "Queen",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Don’t Stop Me Now",
+    "artist": "Queen",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "I Want to Break Free",
+    "artist": "Queen",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Somebody to Love",
+    "artist": "Queen",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "We Are the Champions",
+    "artist": "Queen",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "We Will Rock You",
+    "artist": "Queen",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Creep",
+    "artist": "Radiohead",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "I Still Haven’t Found What I’m Looking For",
+    "artist": "U2",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "With or Without You",
+    "artist": "U2",
+    "category": "Rock & Classic Rock"
+  },
+  {
+    "name": "Hello",
+    "artist": "Adele",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Rolling in the Deep",
+    "artist": "Adele",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Someone Like You",
+    "artist": "Adele",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Die With a Smile",
+    "artist": "Bruno Mars",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "The Lazy Song",
+    "artist": "Bruno Mars",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Uptown Funk",
+    "artist": "Bruno Mars",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "When I Was Your Man",
+    "artist": "Bruno Mars",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Just The Way You Are",
+    "artist": "Bruno Mars",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Marry You",
+    "artist": "Bruno Mars",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Baby One More Time",
+    "artist": "Britney Spears",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Toxic",
+    "artist": "Britney Spears",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Perfect",
+    "artist": "Ed Sheeran",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Shape of You",
+    "artist": "Ed Sheeran",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Thinking Out Loud",
+    "artist": "Ed Sheeran",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "As It Was",
+    "artist": "Harry Styles",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Two Ghosts",
+    "artist": "Harry Styles",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Watermelon Sugar",
+    "artist": "Harry Styles",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "I’m Yours",
+    "artist": "Jason Mraz",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "You’re Beautiful",
+    "artist": "James Blunt",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "All of Me",
+    "artist": "John Legend",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Baby",
+    "artist": "Justin Bieber",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Love Yourself",
+    "artist": "Justin Bieber",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Memories",
+    "artist": "Maroon 5",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Payphone",
+    "artist": "Maroon 5",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Sugar",
+    "artist": "Maroon 5",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "She Will Be Loved",
+    "artist": "Maroon 5",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Sunday Morning",
+    "artist": "Maroon 5",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "This Love",
+    "artist": "Maroon 5",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Don’t Look Back in Anger",
+    "artist": "Oasis",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Happy",
+    "artist": "Pharrell Williams",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "I’m Not the Only One",
+    "artist": "Sam Smith",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Until I Found You",
+    "artist": "Stephen Sanchez",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Hey Soul Sister",
+    "artist": "Train",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Riptide",
+    "artist": "Vance Joy",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Somebody That I Used to Know",
+    "artist": "Gotye",
+    "category": "Pop & Pop Rock"
+  },
+  {
+    "name": "Just the Two of Us",
+    "artist": "Bill Withers",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "Lovely Day",
+    "artist": "Bill Withers",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "Fly Me to the Moon",
+    "artist": "Frank Sinatra",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "My Way",
+    "artist": "Frank Sinatra",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "New York, New York",
+    "artist": "Frank Sinatra",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+  "name": "Mack the Knife",
+  "artist": "Bobby Darin",
+  "category": "Jazz, Crooners & Classics"
+  },
+  {
+  "name": "That’s Life",
+  "artist": "Frank Sinatra",
+  "category": "Jazz, Crooners & Classics"
+  },
+  {
+  "name": "The Lady is a Tramp",
+  "artist": "Frank Sinatra",
+  "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "What a Wonderful World",
+    "artist": "Louis Armstrong",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "Isn’t She Lovely",
+    "artist": "Stevie Wonder",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "Part-Time Lover",
+    "artist": "Stevie Wonder",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "Sir Duke",
+    "artist": "Stevie Wonder",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "Superstition",
+    "artist": "Stevie Wonder",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "I Just Called to Say I Love You",
+    "artist": "Stevie Wonder",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "What’s Going On?",
+    "artist": "4 Non Blondes",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Karma Chameleon",
+    "artist": "Culture Club",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Sweet Dreams (Are Made of This)",
+    "artist": "Eurythmics",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "You’re the One That I Want",
+    "artist": "Grease",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Summer Nights",
+    "artist": "Grease",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Breaking Free",
+    "artist": "High School Musical",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "What I’ve Been Looking For",
+    "artist": "High School Musical",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Take Me Home, Country Roads",
+    "artist": "John Denver",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Great Balls of Fire",
+    "artist": "Jerry Lee Lewis",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Hallelujah",
+    "artist": "Jeff Buckley",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Hit the Road Jack",
+    "artist": "Ray Charles",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "I’m a Believer",
+    "artist": "The Monkees",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "I’ll Be There for You (Friends' Theme)",
+    "artist": "The Rembrandts",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "I Will Always Love You",
+    "artist": "Whitney Houston",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "YMCA",
+    "artist": "Village People",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "We Are the World",
+    "artist": "USA for Africa",
+    "category": "Musicals & Other Hits"
+  },
+  {
+    "name": "Angela",
+    "artist": "Checco Zalone",
+    "category": "Italian"
+  },
+  {
+    "name": "Dieci ragazze per me",
+    "artist": "Lucio Battisti",
+    "category": "Italian"
+  },
+  {
+    "name": "Il tempo di morire",
+    "artist": "Lucio Battisti",
+    "category": "Italian"
+  },
+  {
+    "name": "Guarda come dondolo",
+    "artist": "Edoardo Vianello",
+    "category": "Italian"
+  },
+  {
+    "name": "Vivo per lei",
+    "artist": "Andrea Bocelli & Giorgia",
+    "category": "Italian"
+  },
+  {
+    "name": "Tu vuo’ fa l’americano",
+    "artist": "Renato Carosone",
+    "category": "Italian"
+  },
+  {
+    "name": "Je so' pazzo",
+    "artist": "Pino Daniele",
+    "category": "Italian"
+  },
+  {
+    "name": "Dubbi non ho",
+    "artist": "Pino Daniele",
+    "category": "Italian"
+  },
+  {
+    "name": "Parole parole",
+    "artist": "Mina & Alberto Lupo",
+    "category": "Italian"
+  },
+  {
+    "name": "Wake Me Up Before You Go Go",
+    "artist": "Wham!",
+    "category": "English"
+  },
+  {
+    "name": "Sarà perché ti amo",
+    "artist": "Ricchi e Poveri",
+    "category": "Italian"
+  },
+  {
+    "name": "Maledetta primavera",
+    "artist": "Loretta Goggi",
+    "category": "Italian"
+  },
+  {
+    "name": "Gloria",
+    "artist": "Umberto Tozzi",
+    "category": "Italian"
+  },
+  {
+    "name": "Bella Ciao",
+    "artist": "Traditional",
+    "category": "Italian"
+  },
+  {
+    "name": "L’italiano (Lasciatemi cantare)",
+    "artist": "Toto Cutugno",
+    "category": "Italian"
+  },
+  {
+    "name": "Ai Se Eu Te Pego",
+    "artist": "Michel Teló",
+    "category": "Latin"
+  },
+  {
+    "name": "Tú Me Partiste El Corazón",
+    "artist": "Maluma",
+    "category": "Latin"
+  },
+  {
+    "name": "Felices los 4",
+    "artist": "Maluma",
+    "category": "Latin"
+  },
+  {
+    "name": "La Flaca",
+    "artist": "Jarabe de Palo",
+    "category": "Latin"
+  },
+  {
+    "name": "Si Antes Te Hubiera Conocido",
+    "artist": "Karol G",
+    "category": "Latin"
+  },
+  {
+    "name": "Tacones Rojos",
+    "artist": "Sebastián Yatra",
+    "category": "Latin"
+  },
+  {
+    "name": "La Camisa Negra",
+    "artist": "Juanes",
+    "category": "Latin"
+  },
+  {
+    "name": "Despacito",
+    "artist": "Luis Fonsi ft. Daddy Yankee",
+    "category": "Latin"
+  },
+  {
+    "name": "María (Un, Dos, Tres)",
+    "artist": "Ricky Martin",
+    "category": "Latin"
+  },
+  {
+    "name": "Llamado de Emergencia",
+    "artist": "Daddy Yankee",
+    "category": "Latin"
+  },
+  {
+    "name": "La Bomba",
+    "artist": "King Africa",
+    "category": "Latin"
+  },
+  {
+    "name": "Bailando",
+    "artist": "Enrique Iglesias",
+    "category": "Latin"
+  },
+  {
+    "name": "Duele el Corazón",
+    "artist": "Enrique Iglesias",
+    "category": "Latin"
+  },
+  {
+    "name": "Nada fue un error",
+    "artist": "Coti ft. Julieta Venegas & Paulina Rubio",
+    "category": "Latin"
+  },
+  {
+    "name": "Me Gustas Tú",
+    "artist": "Manu Chao",
+    "category": "Latin"
+  },
+  {
+    "name": "La Bamba",
+    "artist": "Ritchie Valens",
+    "category": "Latin"
+  },
+  {
+    "name": "Suavemente",
+    "artist": "Elvis Crespo",
+    "category": "Latin"
+  },
+  {
+    "name": "Ghostbusters",
+    "artist": "Ray Parker Jr.",
+    "category": "Party Classics"
+  },
+  {
+    "name": "Eye of the Tiger",
+    "artist": "Survivor",
+    "category": "Rock Anthems"
+  },
+  {
+    "name": "Dancing Queen",
+    "artist": "ABBA",
+    "category": "Pop Classics"
+  },
+  {
+    "name": "Mamma Mia",
+    "artist": "ABBA",
+    "category": "Pop Classics"
+  },
+  {
+    "name": "Volare",
+    "artist": "Domenico Modugno",
+    "category": "Italian Classics"
+  },
+  {
+    "name": "The Way You Make Me Feel",
+    "artist": "Michael Jackson",
+    "category": "-"
+  },
+  {
+    "name": "Higher Ground",
+    "artist": "Stevie Wonder",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "Hallelujah I Love Her So",
+    "artist": "Ray Charles",
+    "category": "Jazz, Crooners & Classics"
+  },
+  {
+    "name": "Billie Jean",
+    "artist": "Michael Jackson",
+    "category": "-"
+  },
+  {
+    "name": "Thriller",
+    "artist": "Michael Jackson",
+    "category": "-"
+  },  {
+    "name": "Viva la Vida",
+    "artist": "Coldplay",
+    "category": "Pop"
+  },
+  {
+    "name": "Bohemian Rhapsody",
+    "artist": "Queen",
+    "category": "Rock"
+  },
+  {
+    "name": "Wannabe",
+    "artist": "Spice Girls",
+    "category": "Pop"
+  },
+  {
+    "name": "Your Song",
+    "artist": "Elton John",
+    "category": "-"
+  },
+  {
+    "name": "I Will Survive",
+    "artist": "Gloria Gaynor",
+    "category": ""
+  },
+  {
+    "name": "Can’t Take My Eyes Off You",
+    "artist": "Frankie Valli",
+    "category": "Classics"
+  },
+  {
+    "name": "Havana",
+    "artist": "Camila Cabello",
+    "category": "Pop"
+  },
+  {
+    "name": "Shallow",
+    "artist": "Lady Gaga",
+    "category": "Pop"
+  },
+  {
+  "name": "Build Me Up Buttercup",
+  "artist": "The Foundations",
+  "category": "Pop"
+  },
+  {
+    "name": "Let’s Get Loud",
+    "artist": "Jennifer Lopez",
+    "category": "Pop"
+  },
+  {
+    "name": "Piano Man",
+    "artist": "Billy Joel",
+    "category": "Rock"
+  },
+  {
+    "name": "Vienna",
+    "artist": "Billy Joel",
+    "category": "Rock"
+  },
+  {
+    "name": "New York State of Mind",
+    "artist": "Billy Joel",
+    "category": "Rock"
+  }
+]
