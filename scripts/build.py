@@ -45,14 +45,14 @@ def copy_static_frontend(out_dir: Path) -> None:
     if not WEB_DIR.exists():
         return
     out_dir.mkdir(parents=True, exist_ok=True)
-    # Copy top-level files
-    for name in ("index.html", "styles.css", "app.js"):
+    # Copy top-level files (include theme.css from web)
+    for name in ("index.html", "styles.css", "app.js", "theme.css"):
         src = WEB_DIR / name
         if src.exists():
             shutil.copy2(src, out_dir / name)
-    # Copy optional shared theme from repo root if present
+    # Copy optional shared theme from repo root if present (fallback)
     theme_src = ROOT / "theme.css"
-    if theme_src.exists():
+    if theme_src.exists() and not (out_dir / "theme.css").exists():
         shutil.copy2(theme_src, out_dir / "theme.css")
     # Copy assets directory recursively
     assets_src = WEB_DIR / "assets"
