@@ -8,9 +8,11 @@ def render_markdown(dataset: dict[str, Any], categories_order: list[str]) -> str
     # Group by category -> artist
     by_cat_artist: dict[str, dict[str, list[dict]]] = defaultdict(lambda: defaultdict(list))
     for s in dataset.get("songs", []):
-        cat = s.get("category") or "Uncategorized"
+        cats = s.get("categories") if isinstance(s.get("categories"), list) else [s.get("category")]
+        cats = [c or "Uncategorized" for c in (cats or ["Uncategorized"])]
         artist = s.get("artist") or "Unknown"
-        by_cat_artist[cat][artist].append(s)
+        for cat in cats:
+            by_cat_artist[cat][artist].append(s)
 
     # Ensure deterministic order inside groups
     for cat in by_cat_artist:

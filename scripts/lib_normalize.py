@@ -58,15 +58,25 @@ def _map_fields(raw: dict) -> dict:
     out: dict = {}
     title = _pick(raw, ("title", "song", "name", "track"))
     artist = _pick(raw, ("artist", "singer", "band"))
-    category = _pick(raw, ("category", "genre", "style", "cat"))
+    cat_val = raw.get("category") if isinstance(raw, dict) else None
+    category = _pick(raw, ("category", "genre", "style", "cat")) if not isinstance(cat_val, list) else None
     lyrics = _pick(raw, ("lyrics_url", "lyrics", "letra", "url_letra"))
 
     if title:
         out["title"] = title.strip()
     if artist:
         out["artist"] = artist.strip()
-    if category:
-        out["category"] = category.strip()
+    # categories can be list or string; store as list and keep first as legacy 'category'
+    categories: list[str] = []
+    if isinstance(cat_val, list):
+        for v in cat_val:
+            if isinstance(v, str) and v.strip():
+                categories.append(v.strip())
+    elif category:
+        categories.append(category.strip())
+    if categories:
+        out["categories"] = categories
+        out["category"] = categories[0]
     if lyrics and re.match(r"^https?://", lyrics.strip(), re.I):
         out["lyrics_url"] = lyrics.strip()
 
@@ -119,7 +129,8 @@ def load_inputs_and_normalize(
     songs = []
     for raw in [*_ensure_list(base), *_ensure_list(extra)]:
         mapped = _map_fields(raw if isinstance(raw, dict) else {})
-        if not mapped.get("category"):
+        if not mapped.get("categories"):
+            mapped["categories"] = ["Uncategorized"]
             mapped["category"] = "Uncategorized"
         # Validate against categories list later; keep as-is for now
         songs.append(mapped)
@@ -146,9 +157,10 @@ def load_inputs_and_normalize(
         "songs": sorted(
             songs,
             key=lambda s: (
-                out_categories.index(s.get("category", "Uncategorized"))
-                if s.get("category", "Uncategorized") in out_categories
-                else len(out_categories),
+                min(
+                    [out_categories.index(c) for c in s.get("categories", []) if c in out_categories]
+                    or [len(out_categories)]
+                ),
                 _normalize_text(s.get("artist", "")),
                 _normalize_text(s.get("title", "")),
             ),

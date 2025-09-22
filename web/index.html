@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Karaoke Song List</title>
+    <!-- Fonts: self-host later; using Google Fonts for now -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700;900&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./theme.css?v=1" />
+    <link rel="stylesheet" href="./styles.css?v=2" />
+  </head>
+  <body>
+    <header role="banner" class="site-header">
+      <div class="container">
+        <div class="brand">
+          <h1 class="title neon-text">Karaoke Song List</h1>
+        </div>
+        <div class="search">
+          <label for="q">Search</label>
+          <input id="q" type="search" placeholder="Search artists or songs…" autocomplete="off" spellcheck="false" aria-autocomplete="list" aria-haspopup="listbox" aria-expanded="false" aria-controls="suggestions" />
+          <div id="suggestions" role="listbox" class="suggestions" hidden aria-label="Search suggestions"></div>
+        </div>
+      </div>
+    </header>
+
+    <main id="app" aria-live="polite" class="container"></main>
+
+    <footer class="site-footer container">
+      <small id="build-meta" class="muted"></small>
+    </footer>
+
+    <script src="./app.js" defer></script>
+  </body>
+  </html>

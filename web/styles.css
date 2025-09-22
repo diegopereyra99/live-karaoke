@@ -1,0 +1,316 @@
+/* Karaoke Songbook — Readable Dark UI (simplified, indented tree) */
+
+/* ========================
+   Global Design Tokens
+   ======================== */
+:root {
+  /* Palette sourced from theme.css */
+  --panel: var(--bg-2, #13163b); /* slightly lighter surface color */
+  --accent: var(--accent-mid, var(--purple, #9bb4ff));
+  --danger: #f87171;
+  --shadow: rgba(0,0,0,0.5);
+
+  /* Background image tuning */
+  --bg-overlay-alpha: 0.18;         /* darkness of overlay over background image */
+  --bg-blur-initial: 3px;           /* blur while loading */
+  --bg-blur-ready: 0px;             /* blur after image is ready */
+  --bg-brightness-initial: 0.8;    /* brightness while loading (1 = normal) */
+  --bg-brightness-ready: 1;         /* brightness after image is ready */
+
+  /* Spacing (8px scale) */
+  --s-1: 8px;
+  --s-2: 16px;
+  --s-3: 24px;
+  --s-4: 32px;
+
+  /* Indentation */
+  --indent-artist: 24px;  /* level 1 */
+  --indent-song: 48px;    /* level 2 */
+
+  /* Lines & guides */
+  --guide: rgba(255,255,255,0.22);
+  --connector: rgba(255,255,255,0.22);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius: 12px;
+
+  /* Typography */
+  --font-title: var(--font-heading, "Montserrat", Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif);
+  --fs-cat: 1.5rem;
+  --fs-artist: 1.2rem;
+  --fs-song: 1rem;
+  --fw-cat: 800;
+  --fw-artist: 600;
+  --fw-song: 450;
+
+  color-scheme: dark;
+}
+
+/* ========================
+   Global
+   ======================== */
+* { box-sizing: border-box; }
+html, body { height: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-body, Inter, Segoe UI, system-ui, -apple-system, Roboto, Ubuntu, Arial, sans-serif);
+  line-height: 1.35;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Background image layer (vinyls) */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  /* Fallback: PNG background */
+  background: linear-gradient(rgba(0,0,0,var(--bg-overlay-alpha, 0.18)), rgba(0,0,0,var(--bg-overlay-alpha, 0.18))), url('./assets/vinyls-cool.png');
+  /* Modern: prefer WebP when supported */
+  background-image: linear-gradient(rgba(0,0,0,var(--bg-overlay-alpha, 0.18)), rgba(0,0,0,var(--bg-overlay-alpha, 0.18))), image-set(
+    url('./assets/vinyls-cool.webp') type('image/webp'),
+    url('./assets/vinyls-cool.png') type('image/png')
+  );
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(var(--bg-blur-initial, 3px)) brightness(var(--bg-brightness-initial, 0.98));
+  transform: scale(1.005); /* hide edges from blur */
+  opacity: 1;
+  transition: filter .35s ease, opacity .35s ease, transform .35s ease;
+}
+
+/* After image is confirmed loaded: ease off blur/darkness */
+body.bg-ready::before {
+  filter: blur(var(--bg-blur-ready, 0px)) brightness(var(--bg-brightness-ready, 1));
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Use theme heading font for headings */
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading, var(--font-title, Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif)); }
+
+.container { max-width: 980px; margin: 0 auto; padding: 0 var(--s-2); }
+.muted { color: var(--muted); }
+
+/* ========================
+   Header
+   ======================== */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  backdrop-filter: blur(10px) saturate(120%);
+  -webkit-backdrop-filter: blur(10px) saturate(120%);
+  background: rgba(16,18,46,0.55);
+  border-bottom: 1px solid rgba(230,235,241,0.12);
+}
+.site-header .container { display: grid; gap: var(--s-2); padding-top: var(--s-2); padding-bottom: var(--s-2); }
+
+.brand { display: flex; align-items: center; gap: var(--s-1); justify-content: center; justify-self: center; text-align: center; }
+.brand .logo { width: 28px; height: 28px; border-radius: 6px; box-shadow: 0 1px 2px var(--shadow) inset; }
+.brand .title {
+  margin: 0;
+  font-family: var(--font-title);
+  font-weight: 900;
+  font-size: clamp(2.2rem, 3.6vw + 1rem, 3.4rem);
+  line-height: 1.1;
+  letter-spacing: .5px;
+  /* Allow neon-text gradient from theme.css to show */
+  text-shadow: 0 2px 12px var(--glow-2, rgba(155,180,255,0.28)), 0 0 2px rgba(255,255,255,0.15);
+}
+
+/* ========================
+   Search
+   ======================== */
+.search { display: flex; align-items: center; gap: var(--s-1); position: relative; }
+.search label { font-size: .9rem; color: var(--muted); }
+.search input[type="search"] {
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(230,235,241,0.14);
+  background: var(--panel);
+  color: var(--text);
+  font-family: var(--font-body, Inter, Segoe UI, system-ui, -apple-system, Roboto, Ubuntu, Arial, sans-serif);
+  outline: none;
+  transition: box-shadow .18s ease, border-color .18s ease, transform .18s ease;
+}
+.search input[type="search"]:hover { transform: translateY(-1px); box-shadow: 0 6px 14px -8px var(--shadow); }
+.search input[type="search"]:focus { border-color: var(--focus, var(--accent)); box-shadow: 0 0 0 3px rgba(155,180,255,0.28); }
+.search input[type="search"]:active { transform: translateY(0); }
+
+/* ========================
+   Category (Accordion Panels)
+   ======================== */
+main.container { padding-top: var(--s-2); padding-bottom: var(--s-3); }
+
+.panel {
+  /* Semi-transparent surface to let background show through */
+  background: rgba(16,18,46,0.42);
+  background: color-mix(in srgb, var(--panel) 70%, transparent);
+  border: 1px solid rgba(230,235,241,0.10);
+  border-radius: var(--radius);
+  overflow: clip;
+  -webkit-backdrop-filter: blur(8px) saturate(120%);
+  backdrop-filter: blur(8px) saturate(120%);
+  box-shadow: 0 10px 35px -20px var(--shadow);
+  margin: var(--s-2) auto;
+  /* Make boxes narrower with gutters around them */
+  width: min(860px, 100% - 48px);
+}
+
+.panel .summary {
+  list-style: none; /* Category = level 0 */
+  cursor: pointer;
+  padding: var(--s-2);
+  display: flex; align-items: center; gap: var(--s-1);
+  font-family: var(--font-heading, var(--font-title, Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif));
+  font-weight: var(--fw-cat);
+  font-size: var(--fs-cat);
+  color: var(--text);
+  border-bottom: 1px solid rgba(230,235,241,0.12);
+}
+.panel .summary::-webkit-details-marker { display: none; }
+
+
+
+/* ========================
+   Artist (level 1, indented + vertical guide)
+   ======================== */
+ul.songs { margin: 0; padding: var(--s-1) 0 var(--s-2); }
+
+li.artist-header {
+  position: relative;
+  padding: 10px var(--s-2) 6px calc(var(--s-2) + var(--indent-artist));
+  font-size: var(--fs-artist);
+  font-weight: var(--fw-artist);
+  color: var(--text);
+  font-family: var(--font-heading, var(--font-title, Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif));
+}
+
+/* subtle vertical guide line for artist level */
+li.artist-header::before {
+  content: "";
+  position: absolute;
+  left: calc(var(--s-2) + (var(--indent-artist) / 2));
+  top: 0; bottom: 0;
+  width: 2px;
+  background: var(--guide);
+  border-radius: 2px;
+}
+
+.panel ul.songs:first-of-type > li.artist-header { padding-top: 12px; }
+
+/* ========================
+   Song (level 2, indented + connector + bullet)
+   ======================== */
+li.song-item {
+  position: relative;
+  padding: 6px var(--s-2) 6px calc(var(--s-2) + var(--indent-song));
+  font-weight: var(--fw-song);
+  font-size: var(--fs-song);
+  color: var(--muted); /* songs are more muted */
+  font-family: var(--font-body, Inter, Segoe UI, system-ui, -apple-system, Roboto, Ubuntu, Arial, sans-serif);
+}
+
+
+/* bullet / icon for songs */
+li.song-item::before {
+  content: "•";
+  position: absolute;
+  left: calc(var(--s-2) + var(--indent-song) - 22px);
+  top: 50%; transform: translateY(-50%);
+  font-size: .9rem;
+  opacity: .9;
+}
+
+/* ========================
+   Interaction states
+   ======================== */
+li.song-item:hover { background: rgba(255,255,255,0.08); text-decoration: underline; text-underline-offset: 2px; }
+li.artist-header:focus-visible { outline: 2px solid var(--focus, var(--accent)); outline-offset: 2px; }
+li.song-item:focus-visible { outline: 2px solid var(--focus, var(--accent)); outline-offset: 2px; }
+li.artist-header:hover { background: rgba(255,255,255,0.04); }
+.panel .summary:hover { background: rgba(255,255,255,0.04); }
+.panel .summary:focus-visible { outline: 2px solid var(--focus, var(--accent)); outline-offset: 2px; }
+
+.no-results { color: var(--muted); padding: 12px 6px 0; }
+
+/* ========================
+   Suggestions (Listbox)
+   ======================== */
+.suggestions { position: absolute; top: calc(100% + var(--s-1)); left: 0; right: 0; z-index: 40; }
+.suggestions[hidden] { display: none; }
+.suggestions .panel { position: static; }
+.suggestions .list {
+  background: rgba(16,18,46,0.42);
+  background: color-mix(in srgb, var(--panel) 70%, transparent);
+  border: 1px solid rgba(230,235,241,0.12);
+  border-radius: var(--radius);
+  margin-top: var(--s-1);
+  box-shadow: 0 16px 40px -22px var(--shadow);
+  overflow: clip;
+  -webkit-backdrop-filter: blur(6px) saturate(120%);
+  backdrop-filter: blur(6px) saturate(120%);
+}
+.suggestions .item { padding: 10px 12px; border-top: 1px solid rgba(230,235,241,0.12); cursor: pointer; color: var(--text); }
+.suggestions .item:first-child { border-top: 0; }
+.suggestions .item[aria-selected="true"], .suggestions .item.active { background: rgba(255,255,255,0.10); }
+.suggestions .hint { color: var(--muted); font-size: .9rem; padding: 8px 12px; }
+
+/* ========================
+   Highlighted song
+   ======================== */
+.highlight { background: rgba(255,255,255,0.12); transition: background .6s ease; }
+.highlight.fade { background: transparent; }
+
+/* ========================
+   Motion preferences
+   ======================== */
+@media (prefers-reduced-motion: reduce) {
+  .search input[type="search"] { transition: none; }
+  body::before { transition: none; }
+}
+
+/* ========================
+   Responsive (mobile-first tweaks)
+   ======================== */
+@media (max-width: 640px) {
+  /* Tighter spacing and readable sizes on phones */
+  :root {
+    --s-1: 8px;
+    --s-2: 12px;
+    --s-3: 20px;
+    --indent-artist: 16px;
+    --indent-song: 32px;
+    --fs-cat: 1.25rem;
+    --fs-artist: 1.05rem;
+    --fs-song: 0.98rem;
+  }
+
+  .site-header .container { gap: var(--s-1); }
+  .brand { justify-content: center; text-align: center; }
+  .brand .title { font-size: clamp(1.6rem, 6vw + .6rem, 2.2rem); }
+
+  .search { gap: var(--s-1); }
+  .search label { display: none; }
+  .search input[type="search"] { padding: 12px 12px; font-size: 1rem; }
+
+  main.container { padding-top: var(--s-1); padding-bottom: var(--s-2); }
+
+  /* Panels: add side gutters and spacing so background shines through */
+  .panel { width: calc(100% - 28px); margin: var(--s-1) auto; }
+
+  /* Increase tap targets */
+  li.song-item { padding: 10px var(--s-2) 10px calc(var(--s-2) + var(--indent-song)); }
+  li.artist-header { padding: 12px var(--s-2) 8px calc(var(--s-2) + var(--indent-artist)); }
+
+  /* Suggestions fit viewport height */
+  .suggestions .list { max-height: 60vh; overflow: auto; }
+}

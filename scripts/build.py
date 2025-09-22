@@ -5,6 +5,7 @@ import json
 import os
 import sys
 from pathlib import Path
+import shutil
 from datetime import datetime, timezone
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -13,12 +14,14 @@ if str(ROOT) not in sys.path:
 
 from scripts.lib_normalize import load_inputs_and_normalize
 from scripts.lib_validate import validate_dataset
-from scripts.lib_render import render_markdown, render_index_html
+from scripts.lib_render import render_markdown
+from scripts.lib_search_index import build_search_index
 
 
 DATA_DIR = ROOT / "data"
 DIST_DIR = ROOT / "dist"
 INTERNAL_DIR = ROOT / "internal"
+WEB_DIR = ROOT / "web"
 
 
 def read_categories(path: Path) -> list[str]:
@@ -36,6 +39,26 @@ def write_json(path: Path, obj: dict | list) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8") as f:
         json.dump(obj, f, ensure_ascii=False, indent=2)
+
+
+def copy_static_frontend(out_dir: Path) -> None:
+    if not WEB_DIR.exists():
+        return
+    out_dir.mkdir(parents=True, exist_ok=True)
+    # Copy top-level files
+    for name in ("index.html", "styles.css", "app.js"):
+        src = WEB_DIR / name
+        if src.exists():
+            shutil.copy2(src, out_dir / name)
+    # Copy optional shared theme from repo root if present
+    theme_src = ROOT / "theme.css"
+    if theme_src.exists():
+        shutil.copy2(theme_src, out_dir / "theme.css")
+    # Copy assets directory recursively
+    assets_src = WEB_DIR / "assets"
+    assets_dst = out_dir / "assets"
+    if assets_src.exists():
+        shutil.copytree(assets_src, assets_dst, dirs_exist_ok=True)
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -76,20 +99,29 @@ def main(argv: list[str] | None = None) -> int:
     # Emit songbook.json
     write_json(out_dir / "songbook.json", dataset)
 
+    # Emit search_index.json
+    search_index = build_search_index(dataset)
+    write_json(out_dir / "search_index.json", search_index)
+
     # Emit songbook.md
     md = render_markdown(dataset, categories)
     (out_dir / "songbook.md").write_text(md, encoding="utf-8")
 
-    # Emit index.html (client-driven)
-    html = render_index_html(dataset)
-    (out_dir / "index.html").write_text(html, encoding="utf-8")
+    # Copy static frontend (index.html, styles.css, app.js, assets)
+    copy_static_frontend(out_dir)
 
     target_label = "internal" if internal_mode else "dist"
     print("Built:")
     print(f" - {target_label}/songbook.json")
+    print(f" - {target_label}/search_index.json")
     print(f" - {target_label}/songbook.md")
     print(f" - {target_label}/validation_report.json")
-    print(f" - {target_label}/index.html")
+    if (out_dir / "index.html").exists():
+        print(f" - {target_label}/index.html")
+    if (out_dir / "styles.css").exists():
+        print(f" - {target_label}/styles.css")
+    if (out_dir / "app.js").exists():
+        print(f" - {target_label}/app.js")
     return 0
 
 
