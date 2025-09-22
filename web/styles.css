@@ -13,9 +13,9 @@
   /* Background image tuning */
   --bg-overlay-alpha: 0.18;         /* darkness of overlay over background image */
   --bg-blur-initial: 3px;           /* blur while loading */
-  --bg-blur-ready: 0px;             /* blur after image is ready */
+  --bg-blur-ready: 5px;             /* blur after image is ready */
   --bg-brightness-initial: 0.8;    /* brightness while loading (1 = normal) */
-  --bg-brightness-ready: 1;         /* brightness after image is ready */
+  --bg-brightness-ready: 0.7;         /* brightness after image is ready */
 
   /* Spacing (8px scale) */
   --s-1: 8px;
@@ -37,9 +37,10 @@
 
   /* Typography */
   --font-title: var(--font-heading, "Montserrat", Inter, system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Arial, sans-serif);
-  --fs-cat: 1.5rem;
-  --fs-artist: 1.2rem;
-  --fs-song: 1rem;
+  /* Typography scales */
+  --fs-cat: 1.65rem;    /* was 1.5rem */
+  --fs-artist: 1.3rem;  /* was 1.2rem */
+  --fs-song: 1.1rem;    /* was 1rem */
   --fw-cat: 800;
   --fw-artist: 600;
   --fw-song: 450;
@@ -52,6 +53,8 @@
    ======================== */
 * { box-sizing: border-box; }
 html, body { height: 100%; }
+/* Globally increase font sizing (1rem -> ~18px) */
+html { font-size: 112.5%; }
 body {
   margin: 0;
   background: var(--bg);
@@ -78,7 +81,10 @@ body::before {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  /* Use a fixed-positioned pseudo-element instead of background-attachment: fixed
+     to ensure CSS filters apply reliably across browsers. */
+  /* background-attachment: fixed; */
+  -webkit-filter: blur(var(--bg-blur-initial, 3px)) brightness(var(--bg-brightness-initial, 0.98));
   filter: blur(var(--bg-blur-initial, 3px)) brightness(var(--bg-brightness-initial, 0.98));
   transform: scale(1.005); /* hide edges from blur */
   opacity: 1;
@@ -87,6 +93,7 @@ body::before {
 
 /* After image is confirmed loaded: ease off blur/darkness */
 body.bg-ready::before {
+  -webkit-filter: blur(var(--bg-blur-ready, 0px)) brightness(var(--bg-brightness-ready, 1));
   filter: blur(var(--bg-blur-ready, 0px)) brightness(var(--bg-brightness-ready, 1));
   transform: scale(1);
   opacity: 1;
@@ -129,7 +136,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading, var(--font-title, Inte
    Search
    ======================== */
 .search { display: flex; align-items: center; gap: var(--s-1); position: relative; }
-.search label { font-size: .9rem; color: var(--muted); }
+.search label { font-size: 1rem; color: var(--muted); }
 .search input[type="search"] {
   flex: 1;
   padding: 10px 12px;
@@ -138,6 +145,8 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading, var(--font-title, Inte
   background: var(--panel);
   color: var(--text);
   font-family: var(--font-body, Inter, Segoe UI, system-ui, -apple-system, Roboto, Ubuntu, Arial, sans-serif);
+  /* Keep search input text size unchanged from before (16px) */
+  font-size: 16px;
   outline: none;
   transition: box-shadow .18s ease, border-color .18s ease, transform .18s ease;
 }
@@ -226,7 +235,7 @@ li.song-item::before {
   position: absolute;
   left: calc(var(--s-2) + var(--indent-song) - 22px);
   top: 50%; transform: translateY(-50%);
-  font-size: .9rem;
+  font-size: 1rem;
   opacity: .9;
 }
 
@@ -262,7 +271,7 @@ li.artist-header:hover { background: rgba(255,255,255,0.04); }
 .suggestions .item { padding: 10px 12px; border-top: 1px solid rgba(230,235,241,0.12); cursor: pointer; color: var(--text); }
 .suggestions .item:first-child { border-top: 0; }
 .suggestions .item[aria-selected="true"], .suggestions .item.active { background: rgba(255,255,255,0.10); }
-.suggestions .hint { color: var(--muted); font-size: .9rem; padding: 8px 12px; }
+.suggestions .hint { color: var(--muted); font-size: 1rem; padding: 8px 12px; }
 
 /* ========================
    Highlighted song
@@ -289,9 +298,9 @@ li.artist-header:hover { background: rgba(255,255,255,0.04); }
     --s-3: 20px;
     --indent-artist: 16px;
     --indent-song: 32px;
-    --fs-cat: 1.25rem;
-    --fs-artist: 1.05rem;
-    --fs-song: 0.98rem;
+    --fs-cat: 1.35rem;
+    --fs-artist: 1.15rem;
+    --fs-song: 1.06rem;
   }
 
   .site-header .container { gap: var(--s-1); }
@@ -300,7 +309,8 @@ li.artist-header:hover { background: rgba(255,255,255,0.04); }
 
   .search { gap: var(--s-1); }
   .search label { display: none; }
-  .search input[type="search"] { padding: 12px 12px; font-size: 1rem; }
+  /* Keep search input text size unchanged on mobile as well (16px) */
+  .search input[type="search"] { padding: 12px 12px; font-size: 16px; }
 
   main.container { padding-top: var(--s-1); padding-bottom: var(--s-2); }
 
