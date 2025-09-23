@@ -330,5 +330,66 @@
       "Oldies but Goldies"
     ],
     "lyrics_url": "https://www.musixmatch.com/lyrics/Whitney-Houston/I-Will-Always-Love-You-Remastered-2000"
+  },
+  {
+    "name": "Hello",
+    "artist": "Adele",
+    "category": [
+      "Pop Vibes"
+    ],
+    "lyrics_url": "https://www.musixmatch.com/lyrics/Adele/Hello",
+    "fallback_url": "https://www.google.com/search?q=lyrics+%22Hello%22+Adele&hl=en&gl=US&pws=0"
+  },
+  {
+    "name": "Breaking Free",
+    "artist": "High School Musical",
+    "category": [
+      "Oldies but Goldies"
+    ],
+    "lyrics_url": "https://www.musixmatch.com/de/songtext/The-Cast-of-High-School-Musical/Breaking-Free",
+    "fallback_url": "https://www.google.com/search?q=lyrics+%22Breaking+Free%22+High+School+Musical&hl=en&gl=US&pws=0"
+  },
+  {
+    "name": "What I’ve Been Looking For",
+    "artist": "High School Musical",
+    "category": [
+      "Oldies but Goldies"
+    ],
+    "lyrics_url": "https://www.musixmatch.com/lyrics/Ryan-feat-Sharpay-4/What-I-Ve-Been-Looking-For",
+    "fallback_url": "https://www.google.com/search?q=lyrics+%22What+I%E2%80%99ve+Been+Looking+For%22+High+School+Musical&hl=en&gl=US&pws=0"
+  },
+  {
+    "name": "I Still Haven’t Found What I’m Looking For",
+    "artist": "U2",
+    "category": [
+      "Oldies but Goldies"
+    ],
+    "lyrics_url": "https://www.musixmatch.com/lyrics/U2/I-Still-Haven-t-Found-What-I-m-Looking-For",
+    "fallback_url": "https://www.google.com/search?q=lyrics+%22I+Still+Haven%E2%80%99t+Found+What+I%E2%80%99m+Looking+For%22+U2&hl=en&gl=US&pws=0"
+  },
+  {
+    "name": "With or Without You",
+    "artist": "U2",
+    "category": [
+      "Oldies but Goldies"
+    ],
+    "lyrics_url": "https://www.musixmatch.com/lyrics/U2/With-or-Without-You",
+    "fallback_url": "https://www.google.com/search?q=lyrics+%22With+or+Without+You%22+U2&hl=en&gl=US&pws=0"
+  },
+  {
+    "name": "Thriller",
+    "artist": "Michael Jackson",
+    "category": [
+      "Oldies but Goldies"
+    ],
+    "lyrics_url": "https://www.musixmatch.com/lyrics/Michael-Jackson/Thriller",
+    "fallback_url": "https://www.google.com/search?q=lyrics+%22Thriller%22+Michael+Jackson&hl=en&gl=US&pws=0"
+  },
+  {
+    "name": "Black or White",
+    "artist": "Michael Jackson",
+    "category": [
+      "Oldies but Goldies"
+    ]
   }
 ]

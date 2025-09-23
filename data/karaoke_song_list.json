@@ -224,33 +224,6 @@
       "fallback_url": "https://www.google.com/search?q=lyrics+%22Creep%22+Radiohead&hl=en&gl=US&pws=0"
     },
     {
-      "name": "I Still Haven’t Found What I’m Looking For",
-      "artist": "U2",
-      "category": [
-        "Oldies but Goldies"
-      ],
-      "lyrics_url": "https://www.musixmatch.com/lyrics/U2/I-Still-Haven-t-Found-What-I-m-Looking-For",
-      "fallback_url": "https://www.google.com/search?q=lyrics+%22I+Still+Haven%E2%80%99t+Found+What+I%E2%80%99m+Looking+For%22+U2&hl=en&gl=US&pws=0"
-    },
-    {
-      "name": "With or Without You",
-      "artist": "U2",
-      "category": [
-        "Oldies but Goldies"
-      ],
-      "lyrics_url": "https://www.musixmatch.com/lyrics/U2/With-or-Without-You",
-      "fallback_url": "https://www.google.com/search?q=lyrics+%22With+or+Without+You%22+U2&hl=en&gl=US&pws=0"
-    },
-    {
-      "name": "Hello",
-      "artist": "Adele",
-      "category": [
-        "Pop Vibes"
-      ],
-      "lyrics_url": "https://www.musixmatch.com/lyrics/Adele/Hello",
-      "fallback_url": "https://www.google.com/search?q=lyrics+%22Hello%22+Adele&hl=en&gl=US&pws=0"
-    },
-    {
       "name": "Rolling in the Deep",
       "artist": "Adele",
       "category": [
@@ -647,6 +620,15 @@
       "fallback_url": "https://www.google.com/search?q=lyrics+%22Isn%E2%80%99t+She+Lovely%22+Stevie+Wonder&hl=en&gl=US&pws=0"
     },
     {
+      "name": "I Wish",
+      "artist": "Stevie Wonder",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Stevie-Wonder/I-Wish",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I+Wish%22+Stevie+Wonder&hl=en&gl=US&pws=0"
+    },
+    {
       "name": "Part-Time Lover",
       "artist": "Stevie Wonder",
       "category": [
@@ -692,6 +674,15 @@
       "fallback_url": "https://www.google.com/search?q=lyrics+%22Higher+Ground%22+Stevie+Wonder&hl=en&gl=US&pws=0"
     },
     {
+      "name": "What Makes You Beautiful",
+      "artist": "One Direction",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/One-Direction/What-Makes-You-Beautiful",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22What+Makes+You+Beautiful%22+One+Direction&hl=en&gl=US&pws=0"
+    },
+    {
       "name": "What’s Up?",
       "artist": "4 Non Blondes",
       "category": [
@@ -735,24 +726,6 @@
       ],
       "lyrics_url": "https://www.musixmatch.com/lyrics/Grease/Summer-Nights",
       "fallback_url": "https://www.google.com/search?q=lyrics+%22Summer+Nights%22+Grease&hl=en&gl=US&pws=0"
-    },
-    {
-      "name": "Breaking Free",
-      "artist": "High School Musical",
-      "category": [
-        "Oldies but Goldies"
-      ],
-      "lyrics_url": "https://www.musixmatch.com/de/songtext/The-Cast-of-High-School-Musical/Breaking-Free",
-      "fallback_url": "https://www.google.com/search?q=lyrics+%22Breaking+Free%22+High+School+Musical&hl=en&gl=US&pws=0"
-    },
-    {
-      "name": "What I’ve Been Looking For",
-      "artist": "High School Musical",
-      "category": [
-        "Oldies but Goldies"
-      ],
-      "lyrics_url": "https://www.musixmatch.com/lyrics/Ryan-feat-Sharpay-4/What-I-Ve-Been-Looking-For",
-      "fallback_url": "https://www.google.com/search?q=lyrics+%22What+I%E2%80%99ve+Been+Looking+For%22+High+School+Musical&hl=en&gl=US&pws=0"
     },
     {
       "name": "Take Me Home, Country Roads",
@@ -1168,13 +1141,13 @@
       "fallback_url": "https://www.google.com/search?q=lyrics+%22Billie+Jean%22+Michael+Jackson&hl=en&gl=US&pws=0"
     },
     {
-      "name": "Thriller",
+      "name": "Man in The Mirror",
       "artist": "Michael Jackson",
       "category": [
         "Oldies but Goldies"
       ],
-      "lyrics_url": "https://www.musixmatch.com/lyrics/Michael-Jackson/Thriller",
-      "fallback_url": "https://www.google.com/search?q=lyrics+%22Thriller%22+Michael+Jackson&hl=en&gl=US&pws=0"
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Michael-Jackson/Man-in-the-Mirror",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Man+in+The+Mirror%22+Michael+Jackson&hl=en&gl=US&pws=0"
     },
     {
       "name": "Hallelujah I Love Her So",
