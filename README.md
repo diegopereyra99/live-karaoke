@@ -8,10 +8,10 @@
 
 ## Live Site
 
-- URL: https://diegopereyra99.github.io/live-karaoke/
+- URL: https://diegopereyra99.github.io/livekaraoke-songlist/
 - QR Code (to GitHub Pages):
 
-  ![QR to Live Site](https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Fdiegopereyra99.github.io%2Flive-karaoke%2F)
+  ![QR to Live Site](https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Fdiegopereyra99.github.io%2Flivekaraoke-songlist%2F)
 
 ## Quick Start
 
@@ -56,7 +56,7 @@
 
 - Publish the contents of `dist/` to GitHub Pages (Project Pages):
   - Branch: `gh-pages` (recommended) or via GitHub Actions copying `dist/`.
-  - Ensure paths are relative so it serves under `/live-karaoke/`.
+  - Ensure paths are relative so it serves under `/livekaraoke-songlist/`.
 
 ## References
 
