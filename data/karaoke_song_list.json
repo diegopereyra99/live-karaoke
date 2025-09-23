@@ -1,1031 +1,1311 @@
 [
-  {
-    "name": "Come Together",
-    "artist": "The Beatles",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Hey Jude",
-    "artist": "The Beatles",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "I Saw Her Standing There",
-    "artist": "The Beatles",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Imagine",
-    "artist": "John Lennon",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Let It Be",
-    "artist": "The Beatles",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Love Me Do",
-    "artist": "The Beatles",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "She Loves You",
-    "artist": "The Beatles",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Twist and Shout",
-    "artist": "The Beatles",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Yesterday",
-    "artist": "The Beatles",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Have You Ever Seen the Rain",
-    "artist": "Creedence Clearwater Revival",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Proud Mary",
-    "artist": "Creedence Clearwater Revival",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Blue Suede Shoes",
-    "artist": "Elvis Presley",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Can’t Help Falling in Love",
-    "artist": "Elvis Presley",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Hound Dog",
-    "artist": "Elvis Presley",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Jailhouse Rock",
-    "artist": "Elvis Presley",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Dreams",
-    "artist": "Fleetwood Mac",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Crazy Little Thing Called Love",
-    "artist": "Queen",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Don’t Stop Me Now",
-    "artist": "Queen",
-    "category": [
-      "Oldies but Goldies",
-      "Sing-along Hits"
-    ]
-  },
-  {
-    "name": "I Want to Break Free",
-    "artist": "Queen",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Somebody to Love",
-    "artist": "Queen",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "We Are the Champions",
-    "artist": "Queen",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "We Will Rock You",
-    "artist": "Queen",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Bohemian Rhapsody",
-    "artist": "Queen",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Creep",
-    "artist": "Radiohead",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "I Still Haven’t Found What I’m Looking For",
-    "artist": "U2",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "With or Without You",
-    "artist": "U2",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Hello",
-    "artist": "Adele",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Rolling in the Deep",
-    "artist": "Adele",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Someone Like You",
-    "artist": "Adele",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Die With a Smile",
-    "artist": "Bruno Mars",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "The Lazy Song",
-    "artist": "Bruno Mars",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Uptown Funk",
-    "artist": "Bruno Mars",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "When I Was Your Man",
-    "artist": "Bruno Mars",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Just The Way You Are",
-    "artist": "Bruno Mars",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Marry You",
-    "artist": "Bruno Mars",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Baby One More Time",
-    "artist": "Britney Spears",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Toxic",
-    "artist": "Britney Spears",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Perfect",
-    "artist": "Ed Sheeran",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Shape of You",
-    "artist": "Ed Sheeran",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Thinking Out Loud",
-    "artist": "Ed Sheeran",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "As It Was",
-    "artist": "Harry Styles",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Two Ghosts",
-    "artist": "Harry Styles",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Watermelon Sugar",
-    "artist": "Harry Styles",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "I’m Yours",
-    "artist": "Jason Mraz",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "You’re Beautiful",
-    "artist": "James Blunt",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "All of Me",
-    "artist": "John Legend",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Baby",
-    "artist": "Justin Bieber",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Love Yourself",
-    "artist": "Justin Bieber",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Memories",
-    "artist": "Maroon 5",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Payphone",
-    "artist": "Maroon 5",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Sugar",
-    "artist": "Maroon 5",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "She Will Be Loved",
-    "artist": "Maroon 5",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Sunday Morning",
-    "artist": "Maroon 5",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "This Love",
-    "artist": "Maroon 5",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Don’t Look Back in Anger",
-    "artist": "Oasis",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Happy",
-    "artist": "Pharrell Williams",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "I’m Not the Only One",
-    "artist": "Sam Smith",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Until I Found You",
-    "artist": "Stephen Sanchez",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Hey Soul Sister",
-    "artist": "Train",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Riptide",
-    "artist": "Vance Joy",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Somebody That I Used to Know",
-    "artist": "Gotye",
-    "category": [
-      "Pop Vibes"
-    ]
-  },
-  {
-    "name": "Just the Two of Us",
-    "artist": "Bill Withers",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Lovely Day",
-    "artist": "Bill Withers",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Fly Me to the Moon",
-    "artist": "Frank Sinatra",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "My Way",
-    "artist": "Frank Sinatra",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "New York, New York",
-    "artist": "Frank Sinatra",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "That’s Life",
-    "artist": "Frank Sinatra",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "The Lady is a Tramp",
-    "artist": "Frank Sinatra",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Mack the Knife",
-    "artist": "Bobby Darin",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "What a Wonderful World",
-    "artist": "Louis Armstrong",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Isn’t She Lovely",
-    "artist": "Stevie Wonder",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Part-Time Lover",
-    "artist": "Stevie Wonder",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Sir Duke",
-    "artist": "Stevie Wonder",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Superstition",
-    "artist": "Stevie Wonder",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "I Just Called to Say I Love You",
-    "artist": "Stevie Wonder",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Higher Ground",
-    "artist": "Stevie Wonder",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "What’s Up?",
-    "artist": "4 Non Blondes",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Karma Chameleon",
-    "artist": "Culture Club",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Sweet Dreams (Are Made of This)",
-    "artist": "Eurythmics",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "You’re the One That I Want",
-    "artist": "Grease",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Summer Nights",
-    "artist": "Grease",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Breaking Free",
-    "artist": "High School Musical",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "What I’ve Been Looking For",
-    "artist": "High School Musical",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Take Me Home, Country Roads",
-    "artist": "John Denver",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Great Balls of Fire",
-    "artist": "Jerry Lee Lewis",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Hallelujah",
-    "artist": "Jeff Buckley",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Hit the Road Jack",
-    "artist": "Ray Charles",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "I’m a Believer",
-    "artist": "The Monkees",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "I’ll Be There for You (Friends' Theme)",
-    "artist": "The Rembrandts",
-    "category": [
-      "Oldies but Goldies", "Sing-along Hits"
-    ]
-  },
-  {
-    "name": "I Will Always Love You",
-    "artist": "Whitney Houston",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Wake Me Up Before You Go Go",
-    "artist": "Wham!",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "We Are the World",
-    "artist": "USA for Africa",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Angela",
-    "artist": "Checco Zalone",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Dieci ragazze per me",
-    "artist": "Lucio Battisti",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Il tempo di morire",
-    "artist": "Lucio Battisti",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Guarda come dondolo",
-    "artist": "Edoardo Vianello",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Vivo per lei",
-    "artist": "Andrea Bocelli",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Tu vuo’ fa l’americano",
-    "artist": "Renato Carosone",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Je so' pazzo",
-    "artist": "Pino Daniele",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Dubbi non ho",
-    "artist": "Pino Daniele",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Parole parole",
-    "artist": "Mina",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Sarà perché ti amo",
-    "artist": "Ricchi e Poveri",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Maledetta primavera",
-    "artist": "Loretta Goggi",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Gloria",
-    "artist": "Umberto Tozzi",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Bella Ciao",
-    "artist": "Traditional",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "L’italiano (Lasciatemi cantare)",
-    "artist": "Toto Cutugno",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Volare",
-    "artist": "Domenico Modugno",
-    "category": [
-      "Italian Classics"
-    ]
-  },
-  {
-    "name": "Ai Se Eu Te Pego",
-    "artist": "Michel Teló",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Tú Me Partiste El Corazón",
-    "artist": "Maluma",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Felices los 4",
-    "artist": "Maluma",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "La Flaca",
-    "artist": "Jarabe de Palo",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Si Antes Te Hubiera Conocido",
-    "artist": "Karol G",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Tacones Rojos",
-    "artist": "Sebastián Yatra",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "La Camisa Negra",
-    "artist": "Juanes",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Despacito",
-    "artist": "Luis Fonsi",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "María (Un, Dos, Tres)",
-    "artist": "Ricky Martin",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Llamado de Emergencia",
-    "artist": "Daddy Yankee",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "La Bomba",
-    "artist": "King Africa",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Bailando",
-    "artist": "Enrique Iglesias",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Duele el Corazón",
-    "artist": "Enrique Iglesias",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Nada fue un error",
-    "artist": "Coti",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Me Gustas Tú",
-    "artist": "Manu Chao",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Suavemente",
-    "artist": "Elvis Crespo",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Ghostbusters",
-    "artist": "Ray Parker Jr.",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Eye of the Tiger",
-    "artist": "Survivor",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Dancing Queen",
-    "artist": "ABBA",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Mamma Mia",
-    "artist": "ABBA",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "The Way You Make Me Feel",
-    "artist": "Michael Jackson",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Billie Jean",
-    "artist": "Michael Jackson",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Thriller",
-    "artist": "Michael Jackson",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Hallelujah I Love Her So",
-    "artist": "Ray Charles",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Viva la Vida",
-    "artist": "Coldplay",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Wannabe",
-    "artist": "Spice Girls",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Your Song",
-    "artist": "Elton John",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "I Will Survive",
-    "artist": "Gloria Gaynor",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Can’t Take My Eyes Off You",
-    "artist": "Frankie Valli",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Havana",
-    "artist": "Camila Cabello",
-    "category": [
-      "Latin Beats"
-    ]
-  },
-  {
-    "name": "Shallow",
-    "artist": "Lady Gaga",
-    "category": [
-      "Sing-along Hits",
-      "Pop Vibes",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Build Me Up Buttercup",
-    "artist": "The Foundations",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Let’s Get Loud",
-    "artist": "Jennifer Lopez",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Piano Man",
-    "artist": "Billy Joel",
-    "category": [
-      "Sing-along Hits",
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Vienna",
-    "artist": "Billy Joel",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "New York State of Mind",
-    "artist": "Billy Joel",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  },
-  {
-    "name": "Just The Way You Are",
-    "artist": "Billy Joel",
-    "category": [
-      "Oldies but Goldies"
-    ]
-  }
-]
+    {
+      "name": "Come Together",
+      "artist": "The Beatles",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Beatles/Come-Together",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Come+Together%22+The+Beatles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Hey Jude",
+      "artist": "The Beatles",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Beatles/Hey-Jude",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Hey+Jude%22+The+Beatles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I Saw Her Standing There",
+      "artist": "The Beatles",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Beatles/I-Saw-Her-Standing-There",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I+Saw+Her+Standing+There%22+The+Beatles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Imagine",
+      "artist": "John Lennon",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/John-Lennon/Imagine",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Imagine%22+John+Lennon&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Let It Be",
+      "artist": "The Beatles",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Beatles/Let-It-Be",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Let+It+Be%22+The+Beatles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Love Me Do",
+      "artist": "The Beatles",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Beatles/Love-Me-Do",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Love+Me+Do%22+The+Beatles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "She Loves You",
+      "artist": "The Beatles",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Beatles/She-Loves-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22She+Loves+You%22+The+Beatles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Twist and Shout",
+      "artist": "The Beatles",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Beatles/Twist-and-Shout",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Twist+and+Shout%22+The+Beatles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Yesterday",
+      "artist": "The Beatles",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Beatles/Yesterday",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Yesterday%22+The+Beatles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Have You Ever Seen the Rain",
+      "artist": "Creedence Clearwater Revival",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Creedence-Clearwater-Revival/Have-You-Ever-Seen-the-Rain",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Have+You+Ever+Seen+the+Rain%22+Creedence+Clearwater+Revival&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Proud Mary",
+      "artist": "Creedence Clearwater Revival",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Creedence-Clearwater-Revival/Proud-Mary",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Proud+Mary%22+Creedence+Clearwater+Revival&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Blue Suede Shoes",
+      "artist": "Elvis Presley",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Elvis-Presley/Blue-Suede-Shoes-3",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Blue+Suede+Shoes%22+Elvis+Presley&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Can’t Help Falling in Love",
+      "artist": "Elvis Presley",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Elvis-Presley/Can-t-Help-Falling-In-Love-26",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Can%E2%80%99t+Help+Falling+in+Love%22+Elvis+Presley&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Hound Dog",
+      "artist": "Elvis Presley",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Elvis-Presley/Hound-Dog-From-Forest-Gump",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Hound+Dog%22+Elvis+Presley&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Jailhouse Rock",
+      "artist": "Elvis Presley",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/fr/paroles/Elvis-Presley/Jailhouse-Rock-2",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Jailhouse+Rock%22+Elvis+Presley&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Dreams",
+      "artist": "Fleetwood Mac",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Fleetwood-Mac/Dreams",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Dreams%22+Fleetwood+Mac&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Crazy Little Thing Called Love",
+      "artist": "Queen",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/fr/paroles/Queen-40/crazy-little-thing-called-love",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Crazy+Little+Thing+Called+Love%22+Queen&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Don’t Stop Me Now",
+      "artist": "Queen",
+      "category": [
+        "Oldies but Goldies",
+        "Sing-along Hits"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Queen/Don-t-Stop-Me-Now",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Don%E2%80%99t+Stop+Me+Now%22+Queen&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I Want to Break Free",
+      "artist": "Queen",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Queen-40/i-want-to-break-free",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I+Want+to+Break+Free%22+Queen&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Somebody to Love",
+      "artist": "Queen",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Queen/somebody-to-love-1",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Somebody+to+Love%22+Queen&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "We Are the Champions",
+      "artist": "Queen",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Queen/we-are-the-champions-1",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22We+Are+the+Champions%22+Queen&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "We Will Rock You",
+      "artist": "Queen",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Queen/we-will-rock-you-5",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22We+Will+Rock+You%22+Queen&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Bohemian Rhapsody",
+      "artist": "Queen",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/fr/paroles/Queen/Bohemian-Rhapsody-7",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Bohemian+Rhapsody%22+Queen&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Creep",
+      "artist": "Radiohead",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Radiohead/Creep",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Creep%22+Radiohead&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I Still Haven’t Found What I’m Looking For",
+      "artist": "U2",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/U2/I-Still-Haven-t-Found-What-I-m-Looking-For",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I+Still+Haven%E2%80%99t+Found+What+I%E2%80%99m+Looking+For%22+U2&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "With or Without You",
+      "artist": "U2",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/U2/With-or-Without-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22With+or+Without+You%22+U2&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Hello",
+      "artist": "Adele",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Adele/Hello",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Hello%22+Adele&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Rolling in the Deep",
+      "artist": "Adele",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Adele/Rolling-in-the-Deep",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Rolling+in+the+Deep%22+Adele&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Someone Like You",
+      "artist": "Adele",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Adele/Someone-Like-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Someone+Like+You%22+Adele&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Die With a Smile",
+      "artist": "Bruno Mars",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Lady-Gaga-Bruno-Mars/Die-With-A-Smile",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Die+With+a+Smile%22+Bruno+Mars&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "The Lazy Song",
+      "artist": "Bruno Mars",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Bruno-Mars/The-Lazy-Song",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22The+Lazy+Song%22+Bruno+Mars&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Uptown Funk",
+      "artist": "Bruno Mars",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Mark-Ronson-feat-Bruno-Mars/Uptown-Funk-Mixed",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Uptown+Funk%22+Bruno+Mars&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "When I Was Your Man",
+      "artist": "Bruno Mars",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Bruno-Mars/When-I-Was-Your-Man",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22When+I+Was+Your+Man%22+Bruno+Mars&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Just The Way You Are",
+      "artist": "Bruno Mars",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Bruno-Mars/Just-The-Way-You-Are",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Just+The+Way+You+Are%22+Bruno+Mars&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Marry You",
+      "artist": "Bruno Mars",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Bruno-Mars/Marry-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Marry+You%22+Bruno+Mars&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Baby One More Time",
+      "artist": "Britney Spears",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Britney-Spears/Baby-One-More-Time",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Baby+One+More+Time%22+Britney+Spears&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Toxic",
+      "artist": "Britney Spears",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Britney-Spears/Toxic",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Toxic%22+Britney+Spears&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Perfect",
+      "artist": "Ed Sheeran",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ed-Sheeran/Perfect",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Perfect%22+Ed+Sheeran&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Shape of You",
+      "artist": "Ed Sheeran",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ed-Sheeran/Shape-of-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Shape+of+You%22+Ed+Sheeran&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Thinking Out Loud",
+      "artist": "Ed Sheeran",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ed-Sheeran/Thinking-Out-Loud",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Thinking+Out+Loud%22+Ed+Sheeran&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "As It Was",
+      "artist": "Harry Styles",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Harry-Styles/As-It-Was",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22As+It+Was%22+Harry+Styles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Two Ghosts",
+      "artist": "Harry Styles",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Harry-Styles/Two-Ghosts",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Two+Ghosts%22+Harry+Styles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Watermelon Sugar",
+      "artist": "Harry Styles",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Harry-Styles/Watermelon-Sugar",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Watermelon+Sugar%22+Harry+Styles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I’m Yours",
+      "artist": "Jason Mraz",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Jason-Mraz/I-m-Yours",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I%E2%80%99m+Yours%22+Jason+Mraz&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "You’re Beautiful",
+      "artist": "James Blunt",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/James-Blunt/You-re-Beautiful",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22You%E2%80%99re+Beautiful%22+James+Blunt&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "All of Me",
+      "artist": "John Legend",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/John-Legend/All-of-Me",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22All+of+Me%22+John+Legend&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Baby",
+      "artist": "Justin Bieber",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Justin-Bieber/Baby",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Baby%22+Justin+Bieber&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Love Yourself",
+      "artist": "Justin Bieber",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Justin-Bieber/Love-Yourself",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Love+Yourself%22+Justin+Bieber&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Memories",
+      "artist": "Maroon 5",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Maroon-5/Memories",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Memories%22+Maroon+5&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Payphone",
+      "artist": "Maroon 5",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Maroon-5/Payphone",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Payphone%22+Maroon+5&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Sugar",
+      "artist": "Maroon 5",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Maroon-5/Sugar",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Sugar%22+Maroon+5&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "She Will Be Loved",
+      "artist": "Maroon 5",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Maroon-5/She-Will-Be-Loved",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22She+Will+Be+Loved%22+Maroon+5&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Sunday Morning",
+      "artist": "Maroon 5",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Maroon-5/Sunday-Morning",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Sunday+Morning%22+Maroon+5&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "This Love",
+      "artist": "Maroon 5",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Maroon-5/This-Love",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22This+Love%22+Maroon+5&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Don’t Look Back in Anger",
+      "artist": "Oasis",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Oasis/Don-t-Look-Back-in-Anger",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Don%E2%80%99t+Look+Back+in+Anger%22+Oasis&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Happy",
+      "artist": "Pharrell Williams",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Pharrell-Williams/Happy",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Happy%22+Pharrell+Williams&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I’m Not the Only One",
+      "artist": "Sam Smith",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Sam-Smith/I-m-Not-the-Only-One",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I%E2%80%99m+Not+the+Only+One%22+Sam+Smith&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Until I Found You",
+      "artist": "Stephen Sanchez",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Stephen-Sanchez/Until-I-Found-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Until+I+Found+You%22+Stephen+Sanchez&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Hey Soul Sister",
+      "artist": "Train",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Train/Hey-Soul-Sister",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Hey+Soul+Sister%22+Train&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Riptide",
+      "artist": "Vance Joy",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Vance-Joy/Riptide",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Riptide%22+Vance+Joy&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Somebody That I Used to Know",
+      "artist": "Gotye",
+      "category": [
+        "Pop Vibes"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Gotye-Kimbra-Wally-de-Backer/Somebody-That-I-Used-To-Know",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Somebody+That+I+Used+to+Know%22+Gotye&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Just the Two of Us",
+      "artist": "Bill Withers",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Grover-Washington-Jr/Just-the-Two-of-Us",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Just+the+Two+of+Us%22+Bill+Withers&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Lovely Day",
+      "artist": "Bill Withers",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Bill-Withers/Lovely-Day",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Lovely+Day%22+Bill+Withers&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Fly Me to the Moon",
+      "artist": "Frank Sinatra",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Frank-Sinatra/Fly-Me-to-the-Moon-2",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Fly+Me+to+the+Moon%22+Frank+Sinatra&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "My Way",
+      "artist": "Frank Sinatra",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Frank-Sinatra/My-Way-Remastered",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22My+Way%22+Frank+Sinatra&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "New York, New York",
+      "artist": "Frank Sinatra",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Frank-Sinatra/Theme-From-New-York",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22New+York%2C+New+York%22+Frank+Sinatra&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "That’s Life",
+      "artist": "Frank Sinatra",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Frank-Sinatra/That-s-Life",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22That%E2%80%99s+Life%22+Frank+Sinatra&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "The Lady is a Tramp",
+      "artist": "Frank Sinatra",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Frank-Sinatra/The-Lady-is-a-Tramp",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22The+Lady+is+a+Tramp%22+Frank+Sinatra&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Mack the Knife",
+      "artist": "Bobby Darin",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Bobby-Darin/Mack-the-Knife",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Mack+the+Knife%22+Bobby+Darin&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "What a Wonderful World",
+      "artist": "Louis Armstrong",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Louis-Armstrong/What-a-Wonderful-World",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22What+a+Wonderful+World%22+Louis+Armstrong&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Isn’t She Lovely",
+      "artist": "Stevie Wonder",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Stevie-Wonder/Isn-t-She-Lovely",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Isn%E2%80%99t+She+Lovely%22+Stevie+Wonder&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Part-Time Lover",
+      "artist": "Stevie Wonder",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Stevie-Wonder/Part-Time-Lover",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Part-Time+Lover%22+Stevie+Wonder&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Sir Duke",
+      "artist": "Stevie Wonder",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Stevie-Wonder/Sir-Duke",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Sir+Duke%22+Stevie+Wonder&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Superstition",
+      "artist": "Stevie Wonder",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Stevie-Wonder/Superstition",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Superstition%22+Stevie+Wonder&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I Just Called to Say I Love You",
+      "artist": "Stevie Wonder",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Stevie-Wonder/I-Just-Called-to-Say-I-Love-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I+Just+Called+to+Say+I+Love+You%22+Stevie+Wonder&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Higher Ground",
+      "artist": "Stevie Wonder",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Stevie-Wonder/Higher-Ground",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Higher+Ground%22+Stevie+Wonder&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "What’s Up?",
+      "artist": "4 Non Blondes",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/4-Non-Blondes/What-s-Up",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22What%E2%80%99s+Up%3F%22+4+Non+Blondes&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Karma Chameleon",
+      "artist": "Culture Club",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Culture-Club/Karma-Chameleon",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Karma+Chameleon%22+Culture+Club&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Sweet Dreams (Are Made of This)",
+      "artist": "Eurythmics",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Eurythmics/Sweet-Dreams-Are-Made-Of-This-Remastered-Version",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Sweet+Dreams+%28Are+Made+of+This%29%22+Eurythmics&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "You’re the One That I Want",
+      "artist": "Grease",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Grease/You-re-the-One-That-I-Want",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22You%E2%80%99re+the+One+That+I+Want%22+Grease&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Summer Nights",
+      "artist": "Grease",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Grease/Summer-Nights",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Summer+Nights%22+Grease&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Breaking Free",
+      "artist": "High School Musical",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/de/songtext/The-Cast-of-High-School-Musical/Breaking-Free",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Breaking+Free%22+High+School+Musical&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "What I’ve Been Looking For",
+      "artist": "High School Musical",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ryan-feat-Sharpay-4/What-I-Ve-Been-Looking-For",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22What+I%E2%80%99ve+Been+Looking+For%22+High+School+Musical&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Take Me Home, Country Roads",
+      "artist": "John Denver",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/John-Denver/Take-Me-Home-Country-Roads",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Take+Me+Home%2C+Country+Roads%22+John+Denver&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Great Balls of Fire",
+      "artist": "Jerry Lee Lewis",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Jerry-Lee-Lewis/Great-Balls-of-Fire",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Great+Balls+of+Fire%22+Jerry+Lee+Lewis&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Hallelujah",
+      "artist": "Jeff Buckley",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Jeff-Buckley/Hallelujah",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Hallelujah%22+Jeff+Buckley&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Hit the Road Jack",
+      "artist": "Ray Charles",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ray-Charles/Hit-the-Road-Jack",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Hit+the+Road+Jack%22+Ray+Charles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I’m a Believer",
+      "artist": "The Monkees",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Monkees/I-m-a-Believer",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I%E2%80%99m+a+Believer%22+The+Monkees&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I’ll Be There for You (Friends' Theme)",
+      "artist": "The Rembrandts",
+      "category": [
+        "Oldies but Goldies",
+        "Sing-along Hits"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Rembrandts/I-ll-Be-There-for-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I%E2%80%99ll+Be+There+for+You+%28Friends%27+Theme%29%22+The+Rembrandts&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Wake Me Up Before You Go Go",
+      "artist": "Wham!",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/de/songtext/Wham-3/Wake-Me-Up-Before-You-Go",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Wake+Me+Up+Before+You+Go+Go%22+Wham%21&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "We Are the World",
+      "artist": "USA for Africa",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/U-S-A-for-Africa/We-Are-the-World",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22We+Are+the+World%22+USA+for+Africa&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Angela",
+      "artist": "Checco Zalone",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.google.com/search?q=Angela%20Checco%20Zalone%20testo",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Angela%22+Checco+Zalone&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Dieci ragazze per me",
+      "artist": "Lucio Battisti",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/it/testo/Lucio-Battisti/Dieci-ragazze",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Dieci+ragazze+per+me%22+Lucio+Battisti&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Il tempo di morire",
+      "artist": "Lucio Battisti",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Lucio-Battisti/Il-tempo-di-morire",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Il+tempo+di+morire%22+Lucio+Battisti&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Guarda come dondolo",
+      "artist": "Edoardo Vianello",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Edoardo-Vianello/Guarda-come-dondolo",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Guarda+come+dondolo%22+Edoardo+Vianello&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Vivo per lei",
+      "artist": "Andrea Bocelli",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Andrea-Bocelli-feat-Giorgia/Vivo-per-lei",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Vivo+per+lei%22+Andrea+Bocelli&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Tu vuo’ fa l’americano",
+      "artist": "Renato Carosone",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Renato-Carosone/Tu-vuo-fa-l-americano",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Tu+vuo%E2%80%99+fa+l%E2%80%99americano%22+Renato+Carosone&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Je so' pazzo",
+      "artist": "Pino Daniele",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Pino-Daniele/Je-so-pazzo",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Je+so%27+pazzo%22+Pino+Daniele&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Dubbi non ho",
+      "artist": "Pino Daniele",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Pino-Daniele/Dubbi-non-ho",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Dubbi+non+ho%22+Pino+Daniele&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Parole parole",
+      "artist": "Mina",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Mina/Parole-parole",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Parole+parole%22+Mina&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Sarà perché ti amo",
+      "artist": "Ricchi e Poveri",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ricchi-e-Poveri/Sara-perche-ti-amo",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Sar%C3%A0+perch%C3%A9+ti+amo%22+Ricchi+e+Poveri&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Maledetta primavera",
+      "artist": "Loretta Goggi",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Loretta-Goggi/Maledetta-primavera",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Maledetta+primavera%22+Loretta+Goggi&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Gloria",
+      "artist": "Umberto Tozzi",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Umberto-Tozzi/Gloria",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Gloria%22+Umberto+Tozzi&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Bella Ciao",
+      "artist": "Traditional",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Goran-Bregovic/Bella-Ciao",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Bella+Ciao%22+Traditional&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "L’italiano (Lasciatemi cantare)",
+      "artist": "Toto Cutugno",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Toto-Cutugno/L-italiano",
+      "fallback_url": "https://www.google.com/search?q=testo+%22L%E2%80%99italiano+%28Lasciatemi+cantare%29%22+Toto+Cutugno&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Volare",
+      "artist": "Domenico Modugno",
+      "category": [
+        "Italian Classics"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Domenico-Modugno/Volare",
+      "fallback_url": "https://www.google.com/search?q=testo+%22Volare%22+Domenico+Modugno&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Ai Se Eu Te Pego",
+      "artist": "Michel Teló",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Michel-Tel%C3%B3/Ai-Se-Eu-Te-Pego",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Ai+Se+Eu+Te+Pego%22+Michel+Tel%C3%B3&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Tú Me Partiste El Corazón",
+      "artist": "Maluma",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/es/letras/Maluma-feat-Nego-do-Borel/coraz%C3%B3n-nego-do-borel",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22T%C3%BA+Me+Partiste+El+Coraz%C3%B3n%22+Maluma&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Felices los 4",
+      "artist": "Maluma",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Maluma/Felices-los-4",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Felices+los+4%22+Maluma&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "La Flaca",
+      "artist": "Jarabe de Palo",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Jarabe-de-Palo/La-Flaca",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22La+Flaca%22+Jarabe+de+Palo&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Si Antes Te Hubiera Conocido",
+      "artist": "Karol G",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/es/letras/KAROL-G-7/Si-Antes-Te-Hubiera-Conocido",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Si+Antes+Te+Hubiera+Conocido%22+Karol+G&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Tacones Rojos",
+      "artist": "Sebastián Yatra",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Sebastian-Yatra/Tacones-Rojos",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Tacones+Rojos%22+Sebasti%C3%A1n+Yatra&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "La Camisa Negra",
+      "artist": "Juanes",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Juanes/La-Camisa-Negra",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22La+Camisa+Negra%22+Juanes&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Despacito",
+      "artist": "Luis Fonsi",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Luis-Fonsi-feat-Daddy-Yankee/Despacito",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Despacito%22+Luis+Fonsi&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "María (Un, Dos, Tres)",
+      "artist": "Ricky Martin",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ricky-Martin/Maria",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Mar%C3%ADa+%28Un%2C+Dos%2C+Tres%29%22+Ricky+Martin&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Llamado de Emergencia",
+      "artist": "Daddy Yankee",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Daddy-Yankee/Llamado-de-Emergencia",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Llamado+de+Emergencia%22+Daddy+Yankee&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "La Bomba",
+      "artist": "King Africa",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/de/songtext/King-Africa/La-Bomba",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22La+Bomba%22+King+Africa&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Bailando",
+      "artist": "Enrique Iglesias",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Enrique-Iglesias-feat-Decemer-Bueno-Gente-de-Zona/bailando-spanish-version",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Bailando%22+Enrique+Iglesias&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Duele el Corazón",
+      "artist": "Enrique Iglesias",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Enrique-Iglesias-feat-Wisin/DUELE-EL-CORAZON",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Duele+el+Coraz%C3%B3n%22+Enrique+Iglesias&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Nada fue un error",
+      "artist": "Coti",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Coti/Nada-fue-un-error",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Nada+fue+un+error%22+Coti&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Me Gustas Tú",
+      "artist": "Manu Chao",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Manu-Chao/Me-Gustas-Tu",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Me+Gustas+T%C3%BA%22+Manu+Chao&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Suavemente",
+      "artist": "Elvis Crespo",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Elvis-Crespo/Suavemente",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Suavemente%22+Elvis+Crespo&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Ghostbusters",
+      "artist": "Ray Parker Jr.",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ray-Parker-Jr-2/Ghostbusters",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Ghostbusters%22+Ray+Parker+Jr.&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Eye of the Tiger",
+      "artist": "Survivor",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Survivor/Eye-of-the-Tiger",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Eye+of+the+Tiger%22+Survivor&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Dancing Queen",
+      "artist": "ABBA",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/ABBA/Dancing-Queen",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Dancing+Queen%22+ABBA&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Mamma Mia",
+      "artist": "ABBA",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/ABBA/Mamma-Mia",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Mamma+Mia%22+ABBA&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "The Way You Make Me Feel",
+      "artist": "Michael Jackson",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Michael-Jackson/The-Way-You-Make-Me-Feel",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22The+Way+You+Make+Me+Feel%22+Michael+Jackson&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Billie Jean",
+      "artist": "Michael Jackson",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Michael-Jackson/Billie-Jean",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Billie+Jean%22+Michael+Jackson&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Thriller",
+      "artist": "Michael Jackson",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Michael-Jackson/Thriller",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Thriller%22+Michael+Jackson&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Hallelujah I Love Her So",
+      "artist": "Ray Charles",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Ray-Charles/Hallelujah-I-Love-Her-So",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Hallelujah+I+Love+Her+So%22+Ray+Charles&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Viva la Vida",
+      "artist": "Coldplay",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Coldplay/Viva-la-Vida",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Viva+la+Vida%22+Coldplay&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Wannabe",
+      "artist": "Spice Girls",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Spice-Girls/Wannabe",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Wannabe%22+Spice+Girls&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Your Song",
+      "artist": "Elton John",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Elton-John/Your-Song",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Your+Song%22+Elton+John&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "I Will Survive",
+      "artist": "Gloria Gaynor",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Gloria-Gaynor/I-Will-Survive",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22I+Will+Survive%22+Gloria+Gaynor&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Can’t Take My Eyes Off You",
+      "artist": "Frankie Valli",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Frankie-Valli/Can-t-Take-My-Eyes-Off-You",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Can%E2%80%99t+Take+My+Eyes+Off+You%22+Frankie+Valli&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Havana",
+      "artist": "Camila Cabello",
+      "category": [
+        "Latin Beats"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Camila-Cabello-feat-Young-Thug/Havana",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Havana%22+Camila+Cabello&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Shallow",
+      "artist": "Lady Gaga",
+      "category": [
+        "Sing-along Hits",
+        "Pop Vibes",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Lady-Gaga-feat-Bradley-Cooper/Shallow",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Shallow%22+Lady+Gaga&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Build Me Up Buttercup",
+      "artist": "The Foundations",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/The-Foundations/Build-Me-Up-Buttercup",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Build+Me+Up+Buttercup%22+The+Foundations&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Let’s Get Loud",
+      "artist": "Jennifer Lopez",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Jennifer-Lopez/Let-s-Get-Loud",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Let%E2%80%99s+Get+Loud%22+Jennifer+Lopez&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Piano Man",
+      "artist": "Billy Joel",
+      "category": [
+        "Sing-along Hits",
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Billy-Joel/Piano-Man",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Piano+Man%22+Billy+Joel&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Vienna",
+      "artist": "Billy Joel",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Billy-Joel/Vienna",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Vienna%22+Billy+Joel&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "New York State of Mind",
+      "artist": "Billy Joel",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Billy-Joel/New-York-State-of-Mind",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22New+York+State+of+Mind%22+Billy+Joel&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "Just The Way You Are",
+      "artist": "Billy Joel",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Billy-Joel/Just-The-Way-You-Are",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22Just+The+Way+You+Are%22+Billy+Joel&hl=en&gl=US&pws=0"
+    }
+  ]

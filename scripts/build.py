@@ -16,6 +16,11 @@ from scripts.lib_normalize import load_inputs_and_normalize
 from scripts.lib_validate import validate_dataset
 from scripts.lib_render import render_markdown
 from scripts.lib_search_index import build_search_index
+from scripts.lib_enrich_urls import (
+    enrich_karaoke_json,
+    build_musixmatch_url,
+    build_google_fallback_url,
+)
 
 
 DATA_DIR = ROOT / "data"
@@ -61,6 +66,8 @@ def copy_static_frontend(out_dir: Path) -> None:
         shutil.copytree(assets_src, assets_dst, dirs_exist_ok=True)
 
 
+
+
 def main(argv: list[str] | None = None) -> int:
     argv = argv or sys.argv[1:]
     include_review = False
@@ -92,6 +99,20 @@ def main(argv: list[str] | None = None) -> int:
         }
     )
 
+    # Enrich: add lyrics_url and fallback_url to each song (idempotent)
+    for s in dataset.get("songs", []):
+        title = (s.get("title") or "").strip()
+        artist = (s.get("artist") or "").strip()
+        # categories can be list or single string; support both
+        raw_cat = s.get("categories") if isinstance(s.get("categories"), list) else s.get("category")
+        category = raw_cat if isinstance(raw_cat, str) else None
+        categories_list = raw_cat if isinstance(raw_cat, list) else None
+
+        if not s.get("lyrics_url") and title and artist:
+            s["lyrics_url"] = build_musixmatch_url(artist, title)
+        if not s.get("fallback_url") and (title or artist):
+            s["fallback_url"] = build_google_fallback_url(title, artist, category, categories_list)
+
     # Validate
     report = validate_dataset(dataset, categories)
     write_json(out_dir / "validation_report.json", report)
@@ -110,12 +131,31 @@ def main(argv: list[str] | None = None) -> int:
     # Copy static frontend (index.html, styles.css, app.js, assets)
     copy_static_frontend(out_dir)
 
+    # Also emit karaoke_song_list.json with added lyrics_url and fallback_url
+    # Idempotent: only adds missing fields without overwriting existing ones
+    try:
+        enriched = enrich_karaoke_json(DATA_DIR / "karaoke_song_list.json")
+        if enriched:
+            write_json(out_dir / "karaoke_song_list.json", enriched)
+        # Clean up any legacy enriched filename in output
+        legacy = out_dir / "karaoke_song_list.enriched.json"
+        if legacy.exists():
+            try:
+                legacy.unlink()
+            except Exception:
+                pass
+    except Exception as e:
+        # Non-fatal: keep main build successful even if enrichment fails
+        print(f"[warn] Enrichment failed: {e}")
+
     target_label = "internal" if internal_mode else "dist"
     print("Built:")
     print(f" - {target_label}/songbook.json")
     print(f" - {target_label}/search_index.json")
     print(f" - {target_label}/songbook.md")
     print(f" - {target_label}/validation_report.json")
+    if (out_dir / "karaoke_song_list.json").exists():
+        print(f" - {target_label}/karaoke_song_list.json")
     if (out_dir / "index.html").exists():
         print(f" - {target_label}/index.html")
     if (out_dir / "styles.css").exists():

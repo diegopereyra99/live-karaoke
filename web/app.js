@@ -78,7 +78,19 @@
           const list=byArtist.get(artist)||[];
           const ul=document.createElement('ul'); ul.className='songs';
           const ah=document.createElement('li'); ah.className='artist-header'; ah.textContent=`${artist}`; ul.appendChild(ah);
-          for(const s of list){ const li=document.createElement('li'); li.className='song-item'; li.dataset.songId=s.id; li.textContent=s.title; ul.appendChild(li); }
+          for(const s of list){
+            const li=document.createElement('li');
+            li.className='song-item';
+            li.dataset.songId=s.id;
+            const primary = s.lyrics_url || '';
+            const fallback = s.fallback_url || '';
+            const href = primary || fallback || '#';
+            const titleHtml = (href && href !== '#')
+              ? `<a class="song-link" href="${href}" target="_blank" rel="noopener noreferrer">${s.title}</a>`
+              : `${s.title}`;
+            li.innerHTML = `${titleHtml}`;
+            ul.appendChild(li);
+          }
           details.appendChild(ul);
         }
       };
@@ -92,7 +104,7 @@
       if (!count) continue;
       const details = document.createElement('details'); details.className='panel'; details.open = openSet.has(cat);
       const summary = document.createElement('summary'); summary.className='summary'; summary.setAttribute('aria-controls',`sect-${cat}`); summary.setAttribute('aria-expanded',String(details.open)); summary.textContent = `${cat}`; details.appendChild(summary);
-      const mountChildren = () => { if (details.querySelector('ul.songs')) return; const artists=Array.from(artistMap.keys()).sort(collator.compare); for(const artist of artists){ const list=artistMap.get(artist)||[]; const ul=document.createElement('ul'); ul.className='songs'; const ah=document.createElement('li'); ah.className='artist-header'; ah.textContent=`${artist}`; ul.appendChild(ah); for(const s of list){ const li=document.createElement('li'); li.className='song-item'; li.dataset.songId=s.id; li.textContent=s.title; ul.appendChild(li);} details.appendChild(ul);} };
+      const mountChildren = () => { if (details.querySelector('ul.songs')) return; const artists=Array.from(artistMap.keys()).sort(collator.compare); for(const artist of artists){ const list=artistMap.get(artist)||[]; const ul=document.createElement('ul'); ul.className='songs'; const ah=document.createElement('li'); ah.className='artist-header'; ah.textContent=`${artist}`; ul.appendChild(ah); for(const s of list){ const li=document.createElement('li'); li.className='song-item'; li.dataset.songId=s.id; const primary=s.lyrics_url||''; const fallback=s.fallback_url||''; const href=primary||fallback||'#'; const titleHtml = (href && href !== '#') ? `<a class=\"song-link\" href=\"${href}\" target=\"_blank\" rel=\"noopener noreferrer\">${s.title}</a>` : `${s.title}`; li.innerHTML = `${titleHtml}`; ul.appendChild(li);} details.appendChild(ul);} };
       const unmountChildren = () => { for (const ul of details.querySelectorAll('ul.songs')) ul.remove(); };
       details.addEventListener('toggle',()=>{ summary.setAttribute('aria-expanded',String(details.open)); const set=getOpenSet(); if(details.open){ set.add(cat); saveOpenSet(set); mountChildren(); } else { set.delete(cat); saveOpenSet(set); unmountChildren(); } });
       if (details.open) mountChildren();

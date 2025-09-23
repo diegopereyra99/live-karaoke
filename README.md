@@ -15,6 +15,7 @@ Build artifacts
   - `songbook.json` (normalized data for client)
   - `songbook.md` (readable markdown)
   - `validation_report.json` (issues found, if any)
+  - `karaoke_song_list.json` (original list enriched with lyrics/fallback URLs)
 
 Internal-only build (unsafe to publish!)
 
@@ -28,3 +29,10 @@ Notes
 
 - `index.html` and `search_index.json` will be added next per SPEC.md.
 - See `SPEC.md` for details on data model and repository goals.
+
+URL checks
+
+- Verify that all `lyrics_url` entries are valid (no redirects, no 4xx/5xx):
+  - Build first: `python3 scripts/build.py`
+  - Then run: `python3 scripts/check_lyrics_urls.py --input dist/karaoke_song_list.json --output dist/lyrics_url_report.json`
+  - Exit code is non‑zero if any failures are found. The detailed JSON report lists failing songs and reasons.
