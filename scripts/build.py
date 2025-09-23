@@ -64,6 +64,13 @@ def copy_static_frontend(out_dir: Path) -> None:
     assets_dst = out_dir / "assets"
     if assets_src.exists():
         shutil.copytree(assets_src, assets_dst, dirs_exist_ok=True)
+    # Copy CNAME for GitHub Pages custom domain if present (from web/ only)
+    cname_src = WEB_DIR / "CNAME"
+    if cname_src.exists():
+        try:
+            shutil.copy2(cname_src, out_dir / "CNAME")
+        except Exception:
+            pass
 
 
 

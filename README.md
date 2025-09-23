@@ -58,6 +58,15 @@
   - Branch: `gh-pages` (recommended) or via GitHub Actions copying `dist/`.
   - Ensure paths are relative so it serves under `/livekaraoke-songlist/`.
 
+### Custom Domain (CNAME)
+
+- If you use a custom domain for GitHub Pages, add a `CNAME` file containing only your domain (e.g. `karaoke.example.com`).
+- Place `CNAME` in `web/` (i.e., `web/CNAME`). The build copies it into `dist/` automatically.
+- Configure DNS to point your domain to GitHub Pages:
+  - Subdomain: `CNAME` record to `<username>.github.io.`
+  - Apex domain: use `ALIAS`/`ANAME` (or A records as per GitHub docs).
+- In the repo Settings → Pages, set your custom domain and enforce HTTPS.
+
 ## References
 
 - See `SPEC.md` for data model and repository goals.
