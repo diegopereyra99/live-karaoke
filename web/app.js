@@ -113,24 +113,82 @@
     if (!app.children.length) { const p=document.createElement('p'); p.className='no-results'; p.textContent='No matches.'; app.appendChild(p); }
   }
 
-  // Navigate to song id and highlight (3s)
+  // Navigate to song id within "All Songs" and highlight (3s)
   function choose(songId) {
     closePanel();
     if (!window.__DATA__) return;
     const s = window.__DATA__.songs.find(x=>x.id===songId); if(!s) return;
+    const all = document.getElementById('all-songs');
+    if (all) {
+      if (!all.open) all.open = true; // mounts children via toggle listener
+      // Wait a few frames for children to mount, then try to scroll
+      const tryScroll = (tries=12) => {
+        const el = all.querySelector(`li.song-item[data-song-id="${CSS.escape(songId)}"]`);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          el.classList.add('highlight');
+          setTimeout(()=>el.classList.remove('highlight'), 3000);
+        } else if (tries > 0) {
+          requestAnimationFrame(()=>tryScroll(tries-1));
+        } else {
+          // Fallback after exhausting retries
+          const detailsList = Array.from(app.querySelectorAll('details.panel'));
+          const scats = Array.isArray(s.categories) && s.categories.length ? s.categories : (s.category ? [s.category] : ['Uncategorized']);
+          const preferred = scats[0] || 'Uncategorized';
+          const target = detailsList.find(d => d.querySelector('summary')?.textContent?.startsWith(preferred));
+          if (!target) return; if (!target.open) target.open = true;
+          requestAnimationFrame(()=>{ const el2=target.querySelector(`li.song-item[data-song-id="${CSS.escape(songId)}"]`); if(el2){ el2.scrollIntoView({behavior:'smooth', block:'center'}); el2.classList.add('highlight'); setTimeout(()=>el2.classList.remove('highlight'), 3000); } });
+        }
+      };
+      requestAnimationFrame(()=>tryScroll());
+      return;
+    }
+    // No All Songs panel found; fallback immediately
     const detailsList = Array.from(app.querySelectorAll('details.panel'));
     const scats = Array.isArray(s.categories) && s.categories.length ? s.categories : (s.category ? [s.category] : ['Uncategorized']);
     const preferred = scats[0] || 'Uncategorized';
     const target = detailsList.find(d => d.querySelector('summary')?.textContent?.startsWith(preferred));
     if (!target) return; if (!target.open) target.open = true;
-    requestAnimationFrame(()=>{ const el=app.querySelector(`li.song-item[data-song-id="${CSS.escape(songId)}"]`); if(el){ el.scrollIntoView({behavior:'smooth', block:'center'}); el.classList.add('highlight'); setTimeout(()=>el.classList.remove('highlight'), 3000); } });
+    requestAnimationFrame(()=>{ const el=target.querySelector(`li.song-item[data-song-id="${CSS.escape(songId)}"]`); if(el){ el.scrollIntoView({behavior:'smooth', block:'center'}); el.classList.add('highlight'); setTimeout(()=>el.classList.remove('highlight'), 3000); } });
   }
 
-  // Navigate to artist: open a category containing the artist and scroll to its header
+  // Navigate to artist within "All Songs": open and center the artist header
   function chooseArtist(artistName){
     closePanel();
     const data = window.__DATA__;
     if(!data) return;
+    const all = document.getElementById('all-songs');
+    if (all) {
+      if (!all.open) all.open = true; // mounts children via toggle listener
+      const tryScroll = (tries=12) => {
+        const headers = Array.from(all.querySelectorAll('li.artist-header'));
+        const el = headers.find(h => (h.textContent||'').trim() === artistName);
+        if (el) {
+          el.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          el.classList.add('highlight'); setTimeout(()=>el.classList.remove('highlight'), 3000);
+        } else if (tries > 0) {
+          requestAnimationFrame(()=>tryScroll(tries-1));
+        } else {
+          // Fallback: open a category containing the artist
+          const songs = (data.songs||[]).filter(s => (s.artist||'') === artistName);
+          if(!songs.length) return;
+          const scats = Array.isArray(songs[0].categories) && songs[0].categories.length ? songs[0].categories : (songs[0].category ? [songs[0].category] : ['Uncategorized']);
+          const category = scats[0] || 'Uncategorized';
+          const detailsList = Array.from(app.querySelectorAll('details.panel'));
+          const target = detailsList.find(d => d.querySelector('summary')?.textContent?.startsWith(category));
+          if(!target) return;
+          if(!target.open) target.open = true;
+          requestAnimationFrame(()=>{
+            const headers2 = Array.from(target.querySelectorAll('li.artist-header'));
+            const el2 = headers2.find(h => (h.textContent||'').trim() === artistName);
+            if(el2){ el2.scrollIntoView({behavior:'smooth', block:'center'}); el2.classList.add('highlight'); setTimeout(()=>el2.classList.remove('highlight'), 3000); }
+          });
+        }
+      };
+      requestAnimationFrame(()=>tryScroll());
+      return;
+    }
+    // Fallback: open a category containing the artist
     const songs = (data.songs||[]).filter(s => (s.artist||'') === artistName);
     if(!songs.length) return;
     const scats = Array.isArray(songs[0].categories) && songs[0].categories.length ? songs[0].categories : (songs[0].category ? [songs[0].category] : ['Uncategorized']);
@@ -142,7 +200,7 @@
     requestAnimationFrame(()=>{
       const headers = Array.from(target.querySelectorAll('li.artist-header'));
       const el = headers.find(h => (h.textContent||'').trim() === artistName);
-      if(el){ el.scrollIntoView({behavior:'smooth', block:'start'}); el.classList.add('highlight'); setTimeout(()=>el.classList.remove('highlight'), 3000); }
+      if(el){ el.scrollIntoView({behavior:'smooth', block:'center'}); el.classList.add('highlight'); setTimeout(()=>el.classList.remove('highlight'), 3000); }
     });
   }
 
