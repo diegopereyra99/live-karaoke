@@ -1280,5 +1280,14 @@
       ],
       "lyrics_url": "https://www.musixmatch.com/lyrics/Billy-Joel/Just-The-Way-You-Are",
       "fallback_url": "https://www.google.com/search?q=lyrics+%22Just+The+Way+You+Are%22+Billy+Joel&hl=en&gl=US&pws=0"
+    },
+    {
+      "name": "You Can't Hurry Love",
+      "artist": "Phil Collins",
+      "category": [
+        "Oldies but Goldies"
+      ],
+      "lyrics_url": "https://www.musixmatch.com/lyrics/Phil-Collins/You-Cant-Hurry-Love",
+      "fallback_url": "https://www.google.com/search?q=lyrics+%22You+Can%E2%80%99t+Hurry+Love%22+Phil+Collins&hl=en&gl=US&pws=0"
     }
   ]
